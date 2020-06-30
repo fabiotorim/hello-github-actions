@@ -1,2 +1,11 @@
 nome : um fluxo de trabalho para o meu arquivo Hello World 
 em : push
+jobs :
+   build :
+     nome : Olá, ação mundial 
+    é executada : ubuntu-latest 
+    steps :
+      - usa : ações / checkout @ v1 
+      - usa : ./action-a 
+        com :
+           MY_NAME : " Fábio "
