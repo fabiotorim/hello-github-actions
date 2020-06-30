@@ -1,0 +1,17 @@
+nome : " Olá Ações "
+ descrição : " Cumprimente alguém "
+ author : " octocat@github.com "
+
+entradas :
+   MY_NAME :
+     descrição : " Quem cumprimentar "
+     obrigatório : verdadeiro 
+    padrão : " Mundo "
+
+execuções :
+   using : " docker "
+   image : " Dockerfile "
+
+marca :
+   ícone : " mic "
+   cor : " roxo "
